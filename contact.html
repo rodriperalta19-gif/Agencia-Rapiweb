@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacta con Agencia RapidWeb. WhatsApp, Email. San Rafael, Mendoza, Argentina. Respuesta en menos de 24 horas.">
+    <meta name="keywords" content="contacto desarrollo web Mendoza, cotizar sitio web, presupuesto web Argentina">
+    <title>Contacto | Agencia RapidWeb - Hablemos de tu Proyecto</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ========== HEADER ========== -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <svg class="logo-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 2L6 18H16L14 30L26 14H16L18 2Z" fill="url(#gradient)" stroke="url(#gradient)" stroke-width="2" stroke-linejoin="round"/>
+                    <defs>
+                        <linearGradient id="gradient" x1="6" y1="2" x2="26" y2="30" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#0066FF"/>
+                            <stop offset="1" stop-color="#00A3FF"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <span>Agencia <span class="logo-text">RapidWeb</span></span>
+            </a>
+
+            <nav class="nav-menu">
+                <a href="index.html">Inicio</a>
+                <a href="about.html">Sobre Nosotros</a>
+                <a href="services.html">Servicios</a>
+                <a href="portfolio.html">Portafolio</a>
+                <a href="contact.html">Contacto</a>
+                <div class="nav-cta">
+                    <a href="contact.html" class="btn btn-primary">Cotizar Proyecto Gratis</a>
+                </div>
+            </nav>
+
+            <button class="mobile-menu-toggle" aria-label="Abrir menú">☰</button>
+        </div>
+    </header>
+
+    <!-- ========== HERO INTERNO ========== -->
+    <section class="hero" style="padding: 4rem 0;">
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h1 style="font-size: 2.5rem;">Hablemos de tu Proyecto</h1>
+                <p class="hero-subtitle">Estamos listos para convertir tu idea en realidad</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACTO PRINCIPAL ========== -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Formulario de Contacto -->
+                <div class="contact-form fade-in">
+                    <h2 style="margin-bottom: 1.5rem;">Envíanos un Mensaje</h2>
+                    <p style="margin-bottom: 2rem; color: var(--medium-gray);">
+                        Completa el formulario y te responderemos en menos de 24 horas con un presupuesto personalizado.
+                    </p>
+
+                    <!-- Formulario usando FormSubmit.co -->
+                    <form action="https://formsubmit.co/hola@agenciarapidweb.com" method="POST">
+                        <!-- FormSubmit configuración -->
+                        <input type="hidden" name="_subject" value="Nuevo mensaje desde Agencia RapidWeb">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_next" value="https://agenciarapidweb.com/gracias.html">
+
+                        <div class="form-group">
+                            <label for="name">Nombre Completo *</label>
+                            <input type="text" id="name" name="name" required placeholder="Tu nombre">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Teléfono / WhatsApp</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+54 9 XXX-XXXXXX">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Tipo de Servicio</label>
+                            <select id="service" name="service" style="width: 100%; padding: 0.875rem; border: 2px solid #e9ecef; border-radius: 8px; font-family: inherit; font-size: 1rem;">
+                                <option value="">Selecciona un servicio</option>
+                                <option value="sitio-web">Sitio Web</option>
+                                <option value="ecommerce">E-commerce</option>
+                                <option value="landing-page">Landing Page</option>
+                                <option value="app-movil">Aplicación Móvil</option>
+                                <option value="sistema">Sistema a Medida</option>
+                                <option value="rediseno">Rediseño Web</option>
+                                <option value="mantenimiento">Mantenimiento</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Cuéntanos sobre tu proyecto *</label>
+                            <textarea id="message" name="message" required placeholder="Describe tu proyecto, objetivos, plazos y cualquier detalle que consideres importante..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1.125rem;">
+                            Enviar Mensaje 📩
+                        </button>
+
+                        <p style="font-size: 0.875rem; color: var(--light-gray); margin-top: 1rem; text-align: center;">
+                            Al enviar este formulario aceptás nuestra Política de Privacidad
+                        </p>
+                    </form>
+                </div>
+
+                <!-- Información de Contacto -->
+                <div class="contact-info">
+                    <div class="fade-in">
+                        <h2 style="margin-bottom: 1.5rem;">Información de Contacto</h2>
+                        <p style="margin-bottom: 2rem; color: var(--medium-gray);">
+                            También podés contactarnos directamente por estos medios. ¡Respondemos rápido!
+                        </p>
+                    </div>
+
+                    <div class="info-card fade-in">
+                        <div class="info-icon">📱</div>
+                        <div class="info-content">
+                            <h3>WhatsApp</h3>
+                            <p><a href="https://wa.me/549XXXXXXXXX?text=Hola!%20Quiero%20consultar%20por%20un%20proyecto" target="_blank" rel="noopener" style="color: var(--primary-blue); font-weight: 600;">+54 9 XXX-XXXXXX</a></p>
+                            <p style="font-size: 0.875rem; margin-top: 0.5rem;">Respuesta inmediata en horario laboral</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card fade-in">
+                        <div class="info-icon">✉️</div>
+                        <div class="info-content">
+                            <h3>Email</h3>
+                            <p><a href="mailto:hola@agenciarapidweb.com" style="color: var(--primary-blue); font-weight: 600;">hola@agenciarapidweb.com</a></p>
+                            <p style="font-size: 0.875rem; margin-top: 0.5rem;">Respuesta en menos de 24 horas</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card fade-in">
+                        <div class="info-icon">📍</div>
+                        <div class="info-content">
+                            <h3>Ubicación</h3>
+                            <p style="font-weight: 600;">San Rafael, Mendoza</p>
+                            <p>Argentina</p>
+                            <p style="font-size: 0.875rem; margin-top: 0.5rem;">Trabajamos de forma 100% remota</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card fade-in">
+                        <div class="info-icon">🕐</div>
+                        <div class="info-content">
+                            <h3>Horarios de Atención</h3>
+                            <p>Lunes a Viernes: 9:00 - 18:00</p>
+                            <p>Sábados: 9:00 - 13:00</p>
+                            <p style="font-size: 0.875rem; margin-top: 0.5rem; color: var(--light-gray);">Domingos y feriados cerrado</p>
+                        </div>
+                    </div>
+
+                    <!-- Redes Sociales -->
+                    <div class="fade-in" style="margin-top: 2rem;">
+                        <h3 style="margin-bottom: 1rem;">Seguinos en Redes</h3>
+                        <div style="display: flex; gap: 1rem;">
+                            <a href="https://wa.me/549XXXXXXXXX" class="btn btn-primary" style="flex: 1; text-align: center;" target="_blank" rel="noopener">
+                                WhatsApp
+                            </a>
+                            <a href="https://instagram.com/agenciarapidweb" class="btn btn-outline" style="flex: 1; text-align: center;" target="_blank" rel="noopener">
+                                Instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== MAPA ========== -->
+    <section class="section-padding" style="background: var(--bg-light);">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Nuestra Ubicación</h2>
+                <p class="section-subtitle">San Rafael, Mendoza, Argentina</p>
+            </div>
+
+            <div class="map-container fade-in" style="max-width: 1000px; margin: 0 auto;">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107048.04725648705!2d-68.40744644999999!3d-34.617567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9679a81bab56999f%3A0x3a68f910e7ea4d54!2sSan%20Rafael%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1234567890123!5m2!1ses!2sar"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FAQ ========== -->
+    <section class="section-padding" style="background: white;">
+        <div class="container-small">
+            <div class="section-title fade-in">
+                <h2>Preguntas Frecuentes</h2>
+                <p class="section-subtitle">Respuestas a las dudas más comunes</p>
+            </div>
+
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="benefit-card fade-in" style="text-align: left; margin-bottom: 1.5rem;">
+                    <h3 style="color: var(--primary-blue); margin-bottom: 0.75rem;">¿Cuánto tarda el desarrollo de un sitio web?</h3>
+                    <p>Los sitios web estándar los entregamos en 1 día (24 horas). Proyectos más complejos como e-commerce pueden tomar 2-3 días. Te daremos un plazo exacto al cotizar.</p>
+                </div>
+
+                <div class="benefit-card fade-in" style="text-align: left; margin-bottom: 1.5rem;">
+                    <h3 style="color: var(--primary-blue); margin-bottom: 0.75rem;">¿Cuál es el costo de un sitio web?</h3>
+                    <p>Los precios comienzan desde USD 350 para sitios web básicos. E-commerce desde USD 600. Cada proyecto es único y te daremos un presupuesto personalizado sin compromiso.</p>
+                </div>
+
+                <div class="benefit-card fade-in" style="text-align: left; margin-bottom: 1.5rem;">
+                    <h3 style="color: var(--primary-blue); margin-bottom: 0.75rem;">¿Incluyen hosting y dominio?</h3>
+                    <p>Incluimos 1 mes de hosting gratis. El dominio (.com, .com.ar) no está incluido pero te ayudamos a comprarlo y configurarlo. También podemos usar tu hosting y dominio existentes.</p>
+                </div>
+
+                <div class="benefit-card fade-in" style="text-align: left; margin-bottom: 1.5rem;">
+                    <h3 style="color: var(--primary-blue); margin-bottom: 0.75rem;">¿Trabajan con clientes de toda Argentina?</h3>
+                    <p>¡Sí! Aunque estamos en Mendoza, trabajamos de forma 100% remota con clientes de todo el país y Latinoamérica. Toda la comunicación es por WhatsApp, email y videollamadas.</p>
+                </div>
+
+                <div class="benefit-card fade-in" style="text-align: left; margin-bottom: 1.5rem;">
+                    <h3 style="color: var(--primary-blue); margin-bottom: 0.75rem;">¿Puedo hacer cambios después de la entrega?</h3>
+                    <p>¡Por supuesto! Incluimos 2 rondas de revisiones sin costo. Para cambios adicionales podés contratar nuestro plan de mantenimiento desde USD 50/mes o solicitar modificaciones puntuales.</p>
+                </div>
+
+                <div class="benefit-card fade-in" style="text-align: left; margin-bottom: 1.5rem;">
+                    <h3 style="color: var(--primary-blue); margin-bottom: 0.75rem;">¿Cómo es la forma de pago?</h3>
+                    <p>Aceptamos transferencia bancaria, MercadoPago y PayPal. Generalmente se paga 50% al inicio y 50% al finalizar el proyecto. Para proyectos grandes podemos acordar cuotas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CTA FINAL ========== -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="fade-in">
+                <h2>¿Listo para empezar?</h2>
+                <p>Contactanos hoy y obtené un presupuesto personalizado en menos de 24 horas</p>
+                <a href="https://wa.me/549XXXXXXXXX?text=Hola!%20Quiero%20consultar%20por%20un%20proyecto" class="btn btn-white btn-large" target="_blank" rel="noopener">
+                    Hablar por WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Agencia RapidWeb</h3>
+                    <p>Desarrollo rápido de sitios web, aplicaciones móviles y sistemas a medida con inteligencia artificial.</p>
+                    <p style="margin-top: 1rem;"><strong>📍 San Rafael, Mendoza, Argentina</strong></p>
+                    <div class="social-links">
+                        <a href="https://wa.me/549XXXXXXXXX" class="social-link" aria-label="WhatsApp" target="_blank" rel="noopener">📱</a>
+                        <a href="https://instagram.com/agenciarapidweb" class="social-link" aria-label="Instagram" target="_blank" rel="noopener">📷</a>
+                        <a href="mailto:hola@agenciarapidweb.com" class="social-link" aria-label="Email">✉️</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Enlaces Rápidos</h3>
+                    <div class="footer-links">
+                        <a href="index.html">Inicio</a>
+                        <a href="about.html">Sobre Nosotros</a>
+                        <a href="services.html">Servicios</a>
+                        <a href="portfolio.html">Portafolio</a>
+                        <a href="contact.html">Contacto</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Servicios</h3>
+                    <div class="footer-links">
+                        <a href="services.html#sitios-web">Sitios Web</a>
+                        <a href="services.html#apps-moviles">Apps Móviles</a>
+                        <a href="services.html#sistemas">Sistemas a Medida</a>
+                        <a href="services.html#mantenimiento">Mantenimiento</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <div class="footer-links">
+                        <a href="mailto:hola@agenciarapidweb.com">hola@agenciarapidweb.com</a>
+                        <a href="https://wa.me/549XXXXXXXXX">WhatsApp: +54 9 XXX-XXXXXX</a>
+                        <p style="margin-top: 0.5rem;">Lunes a Viernes: 9:00 - 18:00</p>
+                        <p>Sábados: 9:00 - 13:00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Agencia RapidWeb. Todos los derechos reservados.</p>
+                <p>Desarrollo rápido con IA • Mendoza, Argentina</p>
+                <div class="footer-links" style="display: flex; justify-content: center; gap: 1rem; margin-top: 0.5rem; flex-wrap: wrap;">
+                    <a href="#!">Política de Privacidad</a>
+                    <a href="#!">Términos y Condiciones</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
